@@ -1,0 +1,55 @@
+// Программа факториала числа на C
+
+int main()
+{
+    double x = 0;
+
+    scanf("%lg", &x);
+
+    if (x < 1)
+    {
+        printf("%lg\n", -1);
+        return 0;
+    }
+
+    double res = Fuctorial(x);
+
+    printf("%lg\n", res);
+}
+
+double Fuctorial(double x);
+{
+    if (x <= 1)
+    {
+        return 1;
+    }
+
+    return x * Fuctorial(x - 1);
+}
+
+//======================================================
+//Реализация на моём языке
+
+Kono, Giorno Giovanna, niwa yume ga aru ()
+Za Warudo! Toki wo Tomare!
+    Naruto Kage Bunshin no Jutsu 0 dattebayo
+    Kamui Naruto dattebayo
+    Hiraishin no Jutsu (Naruto URYAAAAA 1)
+    Za Warudo! Toki wo Tomare!
+        Kuchiyose no Jutsu -1 dattebayo
+        0 wa Konoha no sato ni kaere dattebayo
+    ROAD ROLLER DA!
+
+    Saske Kage Bunshin no Jutsu Fuctorial(Naruto, Naruto) dattebayo
+    Kuchiyose no Jutsu Saske dattebayo
+ROAD ROLLER DA!
+
+Fuctorial(Naruto, Sakura)
+Za Warudo! Toki wo Tomare!
+    Hiraishin no Jutsu (Naruto UOSHAAAA 1)
+    Za Warudo! Toki wo Tomare!
+        1 wa Konoha no sato ni kaere dattebayo
+    ROAD ROLLER DA!
+
+    Naruto MUDAMUDAMUDA Fuctorial(Naruto ARIARIARIARI 1) wa Konoha no sato ni kaere dattebayo
+ROAD ROLLER DA!

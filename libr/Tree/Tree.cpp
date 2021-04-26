@@ -429,7 +429,6 @@ const char* Tree_text_ERROR(struct Tree* tree)
         case_of_switch(PARAM_SYNTAX_ERROR)
         case_of_switch(SCAN_SYNTAX_ERROR)
         case_of_switch(DEC_SYNTAX_ERROR)
-        case_of_switch(RETURN_SYNTAX_ERROR)
         case_of_switch(CONDITION_SYNTAX_ERROR)
         case_of_switch(DERIVATE_SYNTAX_ERROR)
 

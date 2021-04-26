@@ -101,17 +101,16 @@ enum TREE_ERROR
     PARAM_SYNTAX_ERROR             = 18,
     SCAN_SYNTAX_ERROR              = 19,
     DEC_SYNTAX_ERROR               = 20,
-    RETURN_SYNTAX_ERROR            = 21,
-    CONDITION_SYNTAX_ERROR         = 22,
-    DERIVATE_SYNTAX_ERROR          = 23,
-    GLOBAL_VAR_DEC_ERROR           = 24,
+    CONDITION_SYNTAX_ERROR         = 21,
+    DERIVATE_SYNTAX_ERROR          = 22,
+    GLOBAL_VAR_DEC_ERROR           = 23,
 
-    NO_MAIN_DECLARATION            = 25,
-    VAR_NOT_FOUND                  = 26,
-    WRONG_CONDITION                = 27,
-    WRONG_TYPE_ARG_CALL_FUNC       = 28,
-    NO_INITIALIZATION_VAR          = 29,
-    DIF_FUNC_ERROR                 = 30,
+    NO_MAIN_DECLARATION            = 24,
+    VAR_NOT_FOUND                  = 25,
+    WRONG_CONDITION                = 26,
+    WRONG_TYPE_ARG_CALL_FUNC       = 27,
+    NO_INITIALIZATION_VAR          = 28,
+    DIF_FUNC_ERROR                 = 29,
 };
 
 //=============================================================================================

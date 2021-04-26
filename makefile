@@ -13,7 +13,6 @@ all: libr/Stack/Stack.cpp libr/Stack/Guard.cpp libr/Tree/Tree.cpp libr/Onegin/St
 	g++ CPU/Assembler/Assembler.cpp CPU/Assembler/Assembler_main.cpp CPU/libr/Str_lib.cpp -o asm
 	g++ CPU/Disassembler/Disassembler.cpp CPU/Disassembler/Disassembler_main.cpp CPU/libr/Str_lib.cpp -o dis
 
-
 clean_all: 
 	rm -f "images/equation.aux"
 	rm -f "images/equation.log"

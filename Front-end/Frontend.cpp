@@ -142,9 +142,9 @@ struct Node* GetProg(struct Tree* tree, struct Stack* nodes, const char* name_pr
     TREE_ASSERT_OK(tree);
     fclose(list);
 
-    char command[MAX_SIZE_COMMAND] = "";
-    sprintf(command, "ffmpeg -f concat -safe 0 -i %s -vcodec copy -acodec copy files/%s.mp4", path, tree->name_equation);
-    system(command);
+    // char command[MAX_SIZE_COMMAND] = "";
+    // sprintf(command, "ffmpeg -f concat -safe 0 -i %s -vcodec copy -acodec copy files/%s.mp4", path, tree->name_equation);
+    // system(command);
 
     return tree->root;
 }
@@ -403,13 +403,13 @@ struct Node* GetOp(struct Tree* tree, struct Node* previous_node, struct Stack* 
         return GetAssign(tree, nullptr, nodes, index_node, list);
     }
 
-    if ((Get_node(nodes, *index_node)->type == VAR                                                      || 
-       ((Get_node(nodes, *index_node)->type == FUNC)                                                    && 
-        (Get_node(nodes, *index_node)->value < 65 || Get_node(nodes, *index_node)->value > 79)))        &&
-        (Get_node(nodes, *index_node + 1)->type == SEPARATOR && Get_node(nodes, *index_node + 1)->value == 22))
-    {
-        return GetCall(tree, nullptr, nodes, index_node, list);
-    }
+    // if ((Get_node(nodes, *index_node)->type == VAR                                                      || 
+    //    ((Get_node(nodes, *index_node)->type == FUNC)                                                    && 
+    //     (Get_node(nodes, *index_node)->value < 65 || Get_node(nodes, *index_node)->value > 79)))        &&
+    //     (Get_node(nodes, *index_node + 1)->type == SEPARATOR && Get_node(nodes, *index_node + 1)->value == 22))
+    // {
+    //     return GetCall(tree, nullptr, nodes, index_node, list);
+    // }
 
     else
     {   
@@ -566,30 +566,30 @@ struct Node* GetAssign(struct Tree* tree, struct Node* previous_node, struct Sta
 
 }
 
-struct Node* GetCall(struct Tree* tree, struct Node* previous_node, struct Stack* nodes, size_t* index_node, FILE* list)
-{
-    Tree_null_check(tree);
-    Stack_null_check(nodes);
-    assert(index_node != nullptr);
-    assert(list       != nullptr);
+// struct Node* GetCall(struct Tree* tree, struct Node* previous_node, struct Stack* nodes, size_t* index_node, FILE* list)
+// {
+//     Tree_null_check(tree);
+//     Stack_null_check(nodes);
+//     assert(index_node != nullptr);
+//     assert(list       != nullptr);
 
-    struct Node* func = Get_node(nodes, *index_node);
-    ++(tree->size);
-    ++(*index_node);
+//     struct Node* func = Get_node(nodes, *index_node);
+//     ++(tree->size);
+//     ++(*index_node);
 
-    Require(tree, nodes, index_node, SEPARATOR, 22);
-    struct Node* param = GetArg(tree, nullptr, nodes, index_node, list);
-    Require(tree, nodes, index_node, SEPARATOR, 23);
-    Require(tree, nodes, index_node, LR, 3);
-    fprintf(list, Get_path(KEY_LR));
+//     Require(tree, nodes, index_node, SEPARATOR, 22);
+//     struct Node* param = GetArg(tree, nullptr, nodes, index_node, list);
+//     Require(tree, nodes, index_node, SEPARATOR, 23);
+//     Require(tree, nodes, index_node, LR, 3);
+//     fprintf(list, Get_path(KEY_LR));
 
-    Node_fill(func, 
-              param, 
-              FUNC, func->str, NAN, previous_node, 
-              nullptr);
+//     Node_fill(func, 
+//               param, 
+//               FUNC, func->str, NAN, previous_node, 
+//               nullptr);
               
-    return func;
-}
+//     return func;
+// }
 
 struct Node* GetRet(struct Tree* tree, struct Node* previous_node, struct Stack* nodes, size_t* index_node, FILE* list)
 {
@@ -600,29 +600,50 @@ struct Node* GetRet(struct Tree* tree, struct Node* previous_node, struct Stack*
 
     struct Node* equation = GetC(tree, nullptr, nodes, index_node, list);
 
-    if (Get_node(nodes, *index_node)->type != OPERATION || Get_node(nodes, *index_node)->value != 2)
+    // if (Get_node(nodes, *index_node)->type != OPERATION || Get_node(nodes, *index_node)->value != 2)
+    // {
+    //     tree->error = RETURN_SYNTAX_ERROR;
+
+    //     Syntax_error(nodes, *index_node);
+    //     TREE_ASSERT_OK(tree);
+    // }
+
+    if (Get_node(nodes, *index_node)->type == LR && Get_node(nodes, *index_node)->value == 3)
     {
-        tree->error = RETURN_SYNTAX_ERROR;
+        Require(tree, nodes, index_node, LR, 3);
+        fprintf(list, Get_path(KEY_LR));    
+        
+        return equation;
+    }
+
+    else if (Get_node(nodes, *index_node)->type == OPERATION && Get_node(nodes, *index_node)->value == 2)
+    {
+        struct Node* ret = Get_node(nodes, *index_node);
+        ++(*index_node);
+        ++(tree->size);
+
+        fprintf(list, Get_path(KEY_RETURN));
+
+        Node_fill(ret,
+                equation,
+                OPERATION, ret->str, 2, nullptr,
+                nullptr);
+    
+        Require(tree, nodes, index_node, LR, 3);
+        fprintf(list, Get_path(KEY_LR));    
+        
+        return ret;
+    } 
+
+    else
+    {
+        tree->error = EQUATION_SYNTAX_ERROR;
 
         Syntax_error(nodes, *index_node);
         TREE_ASSERT_OK(tree);
     }
 
-    struct Node* ret = Get_node(nodes, *index_node);
-    ++(*index_node);
-    ++(tree->size);
-
-    fprintf(list, Get_path(KEY_RETURN));
-
-    Node_fill(ret,
-              equation,
-              OPERATION, ret->str, 2, nullptr,
-              nullptr);
-   
-    Require(tree, nodes, index_node, LR, 3);
-    fprintf(list, Get_path(KEY_LR));    
-    
-    return ret;
+    return equation;
 }
 
 struct Node* GetC(struct Tree* tree, struct Node* previous_node, struct Stack* nodes, size_t* index_node, FILE* list)

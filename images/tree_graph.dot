@@ -1,458 +1,462 @@
 digraph G {
 graph [bgcolor = Snow2]
-	"0x55974b5d0fe0" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
-	"0x55974b5d0fe0" -> "0x55974b5d1060" 
-	"0x55974b5d0fe0" -> "0x55974b5d1140" 
-	"0x55974b5d1060" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d1060" -> "0x55974b5d10a0" 
-	"0x55974b5d1060" -> "0x55974b5d1100" 
-	"0x55974b5d10a0" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d1100" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5d1140" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
-	"0x55974b5d1140" -> "0x55974b5d11c0" 
-	"0x55974b5d1140" -> "0x55974b5d12a0" 
-	"0x55974b5d11c0" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d11c0" -> "0x55974b5d1200" 
-	"0x55974b5d11c0" -> "0x55974b5d1260" 
-	"0x55974b5d1200" [shape = box, label = "Diavolo"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d1260" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5d12a0" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
-	"0x55974b5d12a0" -> "0x55974b5d1320" 
-	"0x55974b5d12a0" -> "0x55974b5d7ea0" 
-	"0x55974b5d1320" [shape = box, label = "main"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d1320" -> "0x55974b5d1360" 
-	"0x55974b5d1360" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d1360" -> "0x55974b5d13e0" 
-	"0x55974b5d1360" -> "0x55974b5d1480" 
-	"0x55974b5d13e0" [shape = box, label = "scan"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d13e0" -> "0x55974b5d1420" 
-	"0x55974b5d1420" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d1480" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d1480" -> "0x55974b5d1500" 
-	"0x55974b5d1480" -> "0x55974b5d15a0" 
-	"0x55974b5d1500" [shape = box, label = "scan"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d1500" -> "0x55974b5d1540" 
-	"0x55974b5d1540" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d15a0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d15a0" -> "0x55974b5d1620" 
-	"0x55974b5d15a0" -> "0x55974b5d16c0" 
-	"0x55974b5d1620" [shape = box, label = "scan"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d1620" -> "0x55974b5d1660" 
-	"0x55974b5d1660" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d16c0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d16c0" -> "0x55974b5d1740" 
-	"0x55974b5d16c0" -> "0x55974b5d1a20" 
-	"0x55974b5d1740" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d1740" -> "0x55974b5d1780" 
-	"0x55974b5d1740" -> "0x55974b5d1800" 
-	"0x55974b5d1780" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d1800" [shape = box, label = "Quadratic"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d1800" -> "0x55974b5d1840" 
-	"0x55974b5d1840" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d1840" -> "0x55974b5d18a0" 
-	"0x55974b5d1840" -> "0x55974b5d19c0" 
-	"0x55974b5d18a0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d18a0" -> "0x55974b5d1900" 
-	"0x55974b5d18a0" -> "0x55974b5d1960" 
-	"0x55974b5d1900" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d1960" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d19c0" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d1a20" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d1a20" -> "0x55974b5d1aa0" 
-	"0x55974b5d1a20" -> "0x55974b5d1f40" 
-	"0x55974b5d1aa0" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d1aa0" -> "0x55974b5d1b00" 
-	"0x55974b5d1aa0" -> "0x55974b5d1be0" 
-	"0x55974b5d1b00" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d1b00" -> "0x55974b5d1b40" 
-	"0x55974b5d1b00" -> "0x55974b5d1ba0" 
-	"0x55974b5d1b40" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d1ba0" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
-	"0x55974b5d1be0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d1be0" -> "0x55974b5d1c60" 
-	"0x55974b5d1be0" -> "0x55974b5d1d00" 
-	"0x55974b5d1c60" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d1c60" -> "0x55974b5d1ca0" 
-	"0x55974b5d1ca0" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d1d00" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d1d00" -> "0x55974b5d1d80" 
-	"0x55974b5d1d00" -> "0x55974b5d1e20" 
-	"0x55974b5d1d80" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d1d80" -> "0x55974b5d1dc0" 
-	"0x55974b5d1dc0" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d1e20" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d1e20" -> "0x55974b5d1ea0" 
-	"0x55974b5d1ea0" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d1ea0" -> "0x55974b5d1ee0" 
-	"0x55974b5d1ee0" [shape = box, label = "Diavolo"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d1f40" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d1f40" -> "0x55974b5d7540" 
-	"0x55974b5d1f40" -> "0x55974b5d78e0" 
-	"0x55974b5d7540" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d7540" -> "0x55974b5d75c0" 
-	"0x55974b5d7540" -> "0x55974b5d76a0" 
-	"0x55974b5d75c0" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d75c0" -> "0x55974b5d7600" 
-	"0x55974b5d75c0" -> "0x55974b5d7660" 
-	"0x55974b5d7600" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d7660" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
-	"0x55974b5d76a0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d76a0" -> "0x55974b5d7720" 
-	"0x55974b5d76a0" -> "0x55974b5d77c0" 
-	"0x55974b5d7720" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d7720" -> "0x55974b5d7760" 
-	"0x55974b5d7760" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d77c0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d77c0" -> "0x55974b5d7840" 
-	"0x55974b5d7840" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d7840" -> "0x55974b5d7880" 
-	"0x55974b5d7880" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d78e0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d78e0" -> "0x55974b5d7960" 
-	"0x55974b5d78e0" -> "0x55974b5d7bc0" 
-	"0x55974b5d7960" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d7960" -> "0x55974b5d79c0" 
-	"0x55974b5d7960" -> "0x55974b5d7aa0" 
-	"0x55974b5d79c0" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d79c0" -> "0x55974b5d7a00" 
-	"0x55974b5d79c0" -> "0x55974b5d7a60" 
-	"0x55974b5d7a00" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d7a60" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5d7aa0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d7aa0" -> "0x55974b5d7b20" 
-	"0x55974b5d7b20" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d7b20" -> "0x55974b5d7b60" 
-	"0x55974b5d7b60" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d7bc0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d7bc0" -> "0x55974b5d7c40" 
-	"0x55974b5d7c40" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d7c40" -> "0x55974b5d7ca0" 
-	"0x55974b5d7c40" -> "0x55974b5d7d80" 
-	"0x55974b5d7ca0" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d7ca0" -> "0x55974b5d7ce0" 
-	"0x55974b5d7ca0" -> "0x55974b5d7d40" 
-	"0x55974b5d7ce0" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d7d40" [shape = box, label = "-1", style = filled, color = black, fillcolor = green]
-	"0x55974b5d7d80" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d7d80" -> "0x55974b5d7e00" 
-	"0x55974b5d7e00" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d7e00" -> "0x55974b5d7e40" 
-	"0x55974b5d7e40" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d7ea0" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
-	"0x55974b5d7ea0" -> "0x55974b5d7f20" 
-	"0x55974b5d7ea0" -> "0x55974b5d9f00" 
-	"0x55974b5d7f20" [shape = box, label = "Quadratic"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d7f20" -> "0x55974b5d7f60" 
-	"0x55974b5d7f20" -> "0x55974b5d8080" 
-	"0x55974b5d7f60" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d7f60" -> "0x55974b5d7fc0" 
-	"0x55974b5d7fc0" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d7fc0" -> "0x55974b5d8020" 
-	"0x55974b5d8020" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d8080" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d8080" -> "0x55974b5d8100" 
-	"0x55974b5d8080" -> "0x55974b5d8580" 
-	"0x55974b5d8100" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8100" -> "0x55974b5d8160" 
-	"0x55974b5d8100" -> "0x55974b5d8340" 
-	"0x55974b5d8160" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8160" -> "0x55974b5d81c0" 
-	"0x55974b5d8160" -> "0x55974b5d8300" 
-	"0x55974b5d81c0" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d81c0" -> "0x55974b5d8200" 
-	"0x55974b5d8200" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d8200" -> "0x55974b5d8260" 
-	"0x55974b5d8200" -> "0x55974b5d82a0" 
-	"0x55974b5d8260" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5d82a0" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d8300" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
-	"0x55974b5d8340" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d8340" -> "0x55974b5d83c0" 
-	"0x55974b5d83c0" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d83c0" -> "0x55974b5d8420" 
-	"0x55974b5d8420" [shape = box, label = "Line"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d8420" -> "0x55974b5d8460" 
-	"0x55974b5d8460" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d8460" -> "0x55974b5d84c0" 
-	"0x55974b5d8460" -> "0x55974b5d8520" 
-	"0x55974b5d84c0" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d8520" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d8580" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d8580" -> "0x55974b5d8600" 
-	"0x55974b5d8580" -> "0x55974b5d89c0" 
-	"0x55974b5d8600" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8600" -> "0x55974b5d8640" 
-	"0x55974b5d8600" -> "0x55974b5d86c0" 
-	"0x55974b5d8640" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d86c0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d86c0" -> "0x55974b5d8720" 
-	"0x55974b5d86c0" -> "0x55974b5d8820" 
-	"0x55974b5d8720" [shape = box, label = "^" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8720" -> "0x55974b5d8760" 
-	"0x55974b5d8720" -> "0x55974b5d87c0" 
-	"0x55974b5d8760" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d87c0" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
-	"0x55974b5d8820" [shape = box, label = "*" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8820" -> "0x55974b5d8880" 
-	"0x55974b5d8820" -> "0x55974b5d8960" 
-	"0x55974b5d8880" [shape = box, label = "*" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8880" -> "0x55974b5d88c0" 
-	"0x55974b5d8880" -> "0x55974b5d8900" 
-	"0x55974b5d88c0" [shape = box, label = "4", style = filled, color = black, fillcolor = green]
-	"0x55974b5d8900" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d8960" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d89c0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d89c0" -> "0x55974b5d8a40" 
-	"0x55974b5d89c0" -> "0x55974b5d9540" 
-	"0x55974b5d8a40" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8a40" -> "0x55974b5d8aa0" 
-	"0x55974b5d8a40" -> "0x55974b5d8b80" 
-	"0x55974b5d8aa0" [shape = box, label = ">" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8aa0" -> "0x55974b5d8ae0" 
-	"0x55974b5d8aa0" -> "0x55974b5d8b40" 
-	"0x55974b5d8ae0" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d8b40" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5d8b80" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d8b80" -> "0x55974b5d8c00" 
-	"0x55974b5d8b80" -> "0x55974b5d8fe0" 
-	"0x55974b5d8c00" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8c00" -> "0x55974b5d8c40" 
-	"0x55974b5d8c00" -> "0x55974b5d8cc0" 
-	"0x55974b5d8c40" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d8cc0" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8cc0" -> "0x55974b5d8d20" 
-	"0x55974b5d8cc0" -> "0x55974b5d8f80" 
-	"0x55974b5d8d20" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8d20" -> "0x55974b5d8d80" 
-	"0x55974b5d8d20" -> "0x55974b5d8f40" 
-	"0x55974b5d8d80" [shape = box, label = "+" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8d80" -> "0x55974b5d8de0" 
-	"0x55974b5d8d80" -> "0x55974b5d8ea0" 
-	"0x55974b5d8de0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d8de0" -> "0x55974b5d8e20" 
-	"0x55974b5d8e20" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d8ea0" [shape = box, label = "sqrt"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d8ea0" -> "0x55974b5d8ee0" 
-	"0x55974b5d8ee0" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d8f40" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
-	"0x55974b5d8f80" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d8fe0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d8fe0" -> "0x55974b5d9060" 
-	"0x55974b5d8fe0" -> "0x55974b5d9440" 
-	"0x55974b5d9060" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9060" -> "0x55974b5d90a0" 
-	"0x55974b5d9060" -> "0x55974b5d9120" 
-	"0x55974b5d90a0" [shape = box, label = "Diavolo"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d9120" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9120" -> "0x55974b5d9180" 
-	"0x55974b5d9120" -> "0x55974b5d93e0" 
-	"0x55974b5d9180" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9180" -> "0x55974b5d91e0" 
-	"0x55974b5d9180" -> "0x55974b5d93a0" 
-	"0x55974b5d91e0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d91e0" -> "0x55974b5d9240" 
-	"0x55974b5d91e0" -> "0x55974b5d9300" 
-	"0x55974b5d9240" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9240" -> "0x55974b5d9280" 
-	"0x55974b5d9280" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d9300" [shape = box, label = "sqrt"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d9300" -> "0x55974b5d9340" 
-	"0x55974b5d9340" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d93a0" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
-	"0x55974b5d93e0" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d9440" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d9440" -> "0x55974b5d94c0" 
-	"0x55974b5d94c0" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d94c0" -> "0x55974b5d9500" 
-	"0x55974b5d9500" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
-	"0x55974b5d9540" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d9540" -> "0x55974b5d95c0" 
-	"0x55974b5d9540" -> "0x55974b5d9c40" 
-	"0x55974b5d95c0" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d95c0" -> "0x55974b5d9620" 
-	"0x55974b5d95c0" -> "0x55974b5d9800" 
-	"0x55974b5d9620" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9620" -> "0x55974b5d9680" 
-	"0x55974b5d9620" -> "0x55974b5d97c0" 
-	"0x55974b5d9680" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d9680" -> "0x55974b5d96c0" 
-	"0x55974b5d96c0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d96c0" -> "0x55974b5d9720" 
-	"0x55974b5d96c0" -> "0x55974b5d9760" 
-	"0x55974b5d9720" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5d9760" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d97c0" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
-	"0x55974b5d9800" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d9800" -> "0x55974b5d9880" 
-	"0x55974b5d9800" -> "0x55974b5d9b40" 
-	"0x55974b5d9880" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9880" -> "0x55974b5d98c0" 
-	"0x55974b5d9880" -> "0x55974b5d9940" 
-	"0x55974b5d98c0" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d9940" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9940" -> "0x55974b5d99a0" 
-	"0x55974b5d99a0" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d99a0" -> "0x55974b5d9a00" 
-	"0x55974b5d99a0" -> "0x55974b5d9ae0" 
-	"0x55974b5d9a00" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9a00" -> "0x55974b5d9a40" 
-	"0x55974b5d9a00" -> "0x55974b5d9aa0" 
-	"0x55974b5d9a40" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d9aa0" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
-	"0x55974b5d9ae0" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d9b40" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d9b40" -> "0x55974b5d9bc0" 
-	"0x55974b5d9bc0" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9bc0" -> "0x55974b5d9c00" 
-	"0x55974b5d9c00" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
-	"0x55974b5d9c40" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d9c40" -> "0x55974b5d9cc0" 
-	"0x55974b5d9cc0" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9cc0" -> "0x55974b5d9d20" 
-	"0x55974b5d9cc0" -> "0x55974b5d9e00" 
-	"0x55974b5d9d20" [shape = box, label = "<" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9d20" -> "0x55974b5d9d60" 
-	"0x55974b5d9d20" -> "0x55974b5d9dc0" 
-	"0x55974b5d9d60" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d9dc0" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5d9e00" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5d9e00" -> "0x55974b5d9e80" 
-	"0x55974b5d9e80" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5d9e80" -> "0x55974b5d9ec0" 
-	"0x55974b5d9ec0" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5d9f00" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
-	"0x55974b5d9f00" -> "0x55974b5d9f80" 
-	"0x55974b5d9f00" -> "0x55974b5da6c0" 
-	"0x55974b5d9f80" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5d9f80" -> "0x55974b5d9fc0" 
-	"0x55974b5d9f80" -> "0x55974b5da080" 
-	"0x55974b5d9fc0" [shape = box, label = "Number"style = filled, color = black, fillcolor = orange]
-	"0x55974b5d9fc0" -> "0x55974b5da020" 
-	"0x55974b5da020" [shape = box, label = "Value"style = filled, color = black, fillcolor = orange]
-	"0x55974b5da080" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5da080" -> "0x55974b5da100" 
-	"0x55974b5da080" -> "0x55974b5da5c0" 
-	"0x55974b5da100" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5da100" -> "0x55974b5da160" 
-	"0x55974b5da100" -> "0x55974b5da2a0" 
-	"0x55974b5da160" [shape = box, label = "<" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5da160" -> "0x55974b5da1c0" 
-	"0x55974b5da160" -> "0x55974b5da260" 
-	"0x55974b5da1c0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5da1c0" -> "0x55974b5da200" 
-	"0x55974b5da200" [shape = box, label = "Number"style = filled, color = black, fillcolor = orange]
-	"0x55974b5da260" [shape = box, label = "1e-06", style = filled, color = black, fillcolor = green]
-	"0x55974b5da2a0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5da2a0" -> "0x55974b5da320" 
-	"0x55974b5da320" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5da320" -> "0x55974b5da380" 
-	"0x55974b5da320" -> "0x55974b5da4c0" 
-	"0x55974b5da380" [shape = box, label = ">" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5da380" -> "0x55974b5da3e0" 
-	"0x55974b5da380" -> "0x55974b5da480" 
-	"0x55974b5da3e0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5da3e0" -> "0x55974b5da420" 
-	"0x55974b5da420" [shape = box, label = "Number"style = filled, color = black, fillcolor = orange]
-	"0x55974b5da480" [shape = box, label = "-1e-06", style = filled, color = black, fillcolor = green]
-	"0x55974b5da4c0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5da4c0" -> "0x55974b5da540" 
-	"0x55974b5da540" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5da540" -> "0x55974b5da580" 
-	"0x55974b5da580" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
-	"0x55974b5da5c0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5da5c0" -> "0x55974b5da640" 
-	"0x55974b5da640" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5da640" -> "0x55974b5da680" 
-	"0x55974b5da680" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5da6c0" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
-	"0x55974b5da6c0" -> "0x55974b5da740" 
-	"0x55974b5da740" [shape = box, label = "Line"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5da740" -> "0x55974b5da780" 
-	"0x55974b5da740" -> "0x55974b5da840" 
-	"0x55974b5da780" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5da780" -> "0x55974b5da7e0" 
-	"0x55974b5da7e0" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
-	"0x55974b5da840" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5da840" -> "0x55974b5da8c0" 
-	"0x55974b5da840" -> "0x55974b5dae80" 
-	"0x55974b5da8c0" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5da8c0" -> "0x55974b5da920" 
-	"0x55974b5da8c0" -> "0x55974b5daa60" 
-	"0x55974b5da920" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5da920" -> "0x55974b5da960" 
-	"0x55974b5da960" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5da960" -> "0x55974b5da9c0" 
-	"0x55974b5da960" -> "0x55974b5daa00" 
-	"0x55974b5da9c0" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5daa00" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5daa60" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5daa60" -> "0x55974b5daae0" 
-	"0x55974b5daa60" -> "0x55974b5dad80" 
-	"0x55974b5daae0" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5daae0" -> "0x55974b5dab40" 
-	"0x55974b5daae0" -> "0x55974b5dac80" 
-	"0x55974b5dab40" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5dab40" -> "0x55974b5dab80" 
-	"0x55974b5dab80" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5dab80" -> "0x55974b5dabe0" 
-	"0x55974b5dab80" -> "0x55974b5dac20" 
-	"0x55974b5dabe0" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5dac20" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
-	"0x55974b5dac80" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5dac80" -> "0x55974b5dad00" 
-	"0x55974b5dad00" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5dad00" -> "0x55974b5dad40" 
-	"0x55974b5dad40" [shape = box, label = "-1", style = filled, color = black, fillcolor = green]
-	"0x55974b5dad80" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5dad80" -> "0x55974b5dae00" 
-	"0x55974b5dae00" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5dae00" -> "0x55974b5dae40" 
-	"0x55974b5dae40" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5dae80" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5dae80" -> "0x55974b5daf00" 
-	"0x55974b5dae80" -> "0x55974b5db440" 
-	"0x55974b5daf00" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5daf00" -> "0x55974b5daf60" 
-	"0x55974b5daf00" -> "0x55974b5db0a0" 
-	"0x55974b5daf60" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
-	"0x55974b5daf60" -> "0x55974b5dafa0" 
-	"0x55974b5dafa0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5dafa0" -> "0x55974b5db000" 
-	"0x55974b5dafa0" -> "0x55974b5db040" 
-	"0x55974b5db000" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5db040" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
-	"0x55974b5db0a0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5db0a0" -> "0x55974b5db120" 
-	"0x55974b5db0a0" -> "0x55974b5db340" 
-	"0x55974b5db120" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5db120" -> "0x55974b5db160" 
-	"0x55974b5db120" -> "0x55974b5db1e0" 
-	"0x55974b5db160" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
-	"0x55974b5db1e0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5db1e0" -> "0x55974b5db240" 
-	"0x55974b5db240" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5db240" -> "0x55974b5db280" 
-	"0x55974b5db240" -> "0x55974b5db2e0" 
-	"0x55974b5db280" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
-	"0x55974b5db2e0" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
-	"0x55974b5db340" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5db340" -> "0x55974b5db3c0" 
-	"0x55974b5db3c0" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5db3c0" -> "0x55974b5db400" 
-	"0x55974b5db400" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
-	"0x55974b5db440" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5db440" -> "0x55974b5db4c0" 
-	"0x55974b5db440" -> "0x55974b5db5a0" 
-	"0x55974b5db4c0" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5db4c0" -> "0x55974b5db500" 
-	"0x55974b5db4c0" -> "0x55974b5db560" 
-	"0x55974b5db500" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
-	"0x55974b5db560" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
-	"0x55974b5db5a0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
-	"0x55974b5db5a0" -> "0x55974b5db620" 
-	"0x55974b5db620" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
-	"0x55974b5db620" -> "0x55974b5db660" 
-	"0x55974b5db660" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
+	"0x55a15883f050" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
+	"0x55a15883f050" -> "0x55a158834fe0" 
+	"0x55a15883f050" -> "0x55a15883eff0" 
+	"0x55a158834fe0" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158834fe0" -> "0x55a158834040" 
+	"0x55a158834fe0" -> "0x55a158835020" 
+	"0x55a158834040" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
+	"0x55a158835020" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883eff0" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
+	"0x55a15883eff0" -> "0x55a158835120" 
+	"0x55a15883eff0" -> "0x55a15883ef90" 
+	"0x55a158835120" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158835120" -> "0x55a1588350c0" 
+	"0x55a158835120" -> "0x55a158835160" 
+	"0x55a1588350c0" [shape = box, label = "Diavolo"style = filled, color = black, fillcolor = orange]
+	"0x55a158835160" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883ef90" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
+	"0x55a15883ef90" -> "0x55a158835220" 
+	"0x55a15883ef90" -> "0x55a15883ef30" 
+	"0x55a158835220" [shape = box, label = "main"style = filled, color = black, fillcolor = crimson]
+	"0x55a158835220" -> "0x55a15883e270" 
+	"0x55a15883e270" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e270" -> "0x55a1588353a0" 
+	"0x55a15883e270" -> "0x55a15883e210" 
+	"0x55a1588353a0" [shape = box, label = "scan"style = filled, color = black, fillcolor = crimson]
+	"0x55a1588353a0" -> "0x55a158835400" 
+	"0x55a158835400" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e210" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e210" -> "0x55a1588354c0" 
+	"0x55a15883e210" -> "0x55a15883e1b0" 
+	"0x55a1588354c0" [shape = box, label = "scan"style = filled, color = black, fillcolor = crimson]
+	"0x55a1588354c0" -> "0x55a158835520" 
+	"0x55a158835520" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e1b0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e1b0" -> "0x55a1588355e0" 
+	"0x55a15883e1b0" -> "0x55a15883e150" 
+	"0x55a1588355e0" [shape = box, label = "scan"style = filled, color = black, fillcolor = crimson]
+	"0x55a1588355e0" -> "0x55a158835640" 
+	"0x55a158835640" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e150" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e150" -> "0x55a1588358c0" 
+	"0x55a15883e150" -> "0x55a15883e0f0" 
+	"0x55a1588358c0" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a1588358c0" -> "0x55a158835860" 
+	"0x55a1588358c0" -> "0x55a158835920" 
+	"0x55a158835860" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
+	"0x55a158835920" [shape = box, label = "Quadratic"style = filled, color = black, fillcolor = crimson]
+	"0x55a158835920" -> "0x55a15883dcd0" 
+	"0x55a15883dcd0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883dcd0" -> "0x55a15883dc70" 
+	"0x55a15883dcd0" -> "0x55a1588359e0" 
+	"0x55a15883dc70" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883dc70" -> "0x55a158835b60" 
+	"0x55a15883dc70" -> "0x55a158835aa0" 
+	"0x55a158835b60" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
+	"0x55a158835aa0" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a1588359e0" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e0f0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e0f0" -> "0x55a158835c80" 
+	"0x55a15883e0f0" -> "0x55a15883e090" 
+	"0x55a158835c80" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158835c80" -> "0x55a158835da0" 
+	"0x55a158835c80" -> "0x55a15883ddf0" 
+	"0x55a158835da0" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158835da0" -> "0x55a158835d40" 
+	"0x55a158835da0" -> "0x55a158835de0" 
+	"0x55a158835d40" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
+	"0x55a158835de0" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
+	"0x55a15883ddf0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883ddf0" -> "0x55a158835f00" 
+	"0x55a15883ddf0" -> "0x55a15883dd90" 
+	"0x55a158835f00" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
+	"0x55a158835f00" -> "0x55a158836200" 
+	"0x55a158836200" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
+	"0x55a15883dd90" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883dd90" -> "0x55a1588362c0" 
+	"0x55a15883dd90" -> "0x55a15883dd30" 
+	"0x55a1588362c0" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
+	"0x55a1588362c0" -> "0x55a158836320" 
+	"0x55a158836320" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
+	"0x55a15883dd30" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883dd30" -> "0x55a1588363e0" 
+	"0x55a1588363e0" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
+	"0x55a1588363e0" -> "0x55a158836440" 
+	"0x55a158836440" [shape = box, label = "Diavolo"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e090" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e090" -> "0x55a158836560" 
+	"0x55a15883e090" -> "0x55a15883e030" 
+	"0x55a158836560" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158836560" -> "0x55a158836680" 
+	"0x55a158836560" -> "0x55a15883deb0" 
+	"0x55a158836680" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158836680" -> "0x55a158836620" 
+	"0x55a158836680" -> "0x55a1588366c0" 
+	"0x55a158836620" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
+	"0x55a1588366c0" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
+	"0x55a15883deb0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883deb0" -> "0x55a1588367e0" 
+	"0x55a15883deb0" -> "0x55a15883de50" 
+	"0x55a1588367e0" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
+	"0x55a1588367e0" -> "0x55a158836840" 
+	"0x55a158836840" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
+	"0x55a15883de50" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883de50" -> "0x55a158836900" 
+	"0x55a158836900" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
+	"0x55a158836900" -> "0x55a158836960" 
+	"0x55a158836960" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e030" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e030" -> "0x55a158836a80" 
+	"0x55a15883e030" -> "0x55a15883dfd0" 
+	"0x55a158836a80" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158836a80" -> "0x55a158836ba0" 
+	"0x55a158836a80" -> "0x55a15883df10" 
+	"0x55a158836ba0" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158836ba0" -> "0x55a158836b40" 
+	"0x55a158836ba0" -> "0x55a158836be0" 
+	"0x55a158836b40" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
+	"0x55a158836be0" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883df10" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883df10" -> "0x55a158836d00" 
+	"0x55a158836d00" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
+	"0x55a158836d00" -> "0x55a158836d60" 
+	"0x55a158836d60" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
+	"0x55a15883dfd0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883dfd0" -> "0x55a158836e80" 
+	"0x55a158836e80" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158836e80" -> "0x55a158836fa0" 
+	"0x55a158836e80" -> "0x55a15883df70" 
+	"0x55a158836fa0" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158836fa0" -> "0x55a158836f40" 
+	"0x55a158836fa0" -> "0x55a158836fe0" 
+	"0x55a158836f40" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
+	"0x55a158836fe0" [shape = box, label = "-1", style = filled, color = black, fillcolor = green]
+	"0x55a15883df70" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883df70" -> "0x55a158837620" 
+	"0x55a158837620" [shape = box, label = "print"style = filled, color = black, fillcolor = crimson]
+	"0x55a158837620" -> "0x55a158837680" 
+	"0x55a158837680" [shape = box, label = "Polnaref"style = filled, color = black, fillcolor = orange]
+	"0x55a15883ef30" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
+	"0x55a15883ef30" -> "0x55a158837800" 
+	"0x55a15883ef30" -> "0x55a15883eed0" 
+	"0x55a158837800" [shape = box, label = "Quadratic"style = filled, color = black, fillcolor = crimson]
+	"0x55a158837800" -> "0x55a1588378c0" 
+	"0x55a158837800" -> "0x55a15883e810" 
+	"0x55a1588378c0" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
+	"0x55a1588378c0" -> "0x55a158837980" 
+	"0x55a158837980" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a158837980" -> "0x55a158837a40" 
+	"0x55a158837a40" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e810" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e810" -> "0x55a158837b60" 
+	"0x55a15883e810" -> "0x55a15883e7b0" 
+	"0x55a158837b60" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158837b60" -> "0x55a158837e40" 
+	"0x55a158837b60" -> "0x55a15883e390" 
+	"0x55a158837e40" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158837e40" -> "0x55a158837c20" 
+	"0x55a158837e40" -> "0x55a158837e80" 
+	"0x55a158837c20" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
+	"0x55a158837c20" -> "0x55a15883e2d0" 
+	"0x55a15883e2d0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e2d0" -> "0x55a158837d80" 
+	"0x55a15883e2d0" -> "0x55a158837ce0" 
+	"0x55a158837d80" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a158837ce0" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
+	"0x55a158837e80" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
+	"0x55a15883e390" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e390" -> "0x55a1588381e0" 
+	"0x55a1588381e0" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a1588381e0" -> "0x55a158837fa0" 
+	"0x55a158837fa0" [shape = box, label = "Line"style = filled, color = black, fillcolor = crimson]
+	"0x55a158837fa0" -> "0x55a15883e330" 
+	"0x55a15883e330" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e330" -> "0x55a158838120" 
+	"0x55a15883e330" -> "0x55a158838060" 
+	"0x55a158838120" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
+	"0x55a158838060" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e7b0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e7b0" -> "0x55a158838360" 
+	"0x55a15883e7b0" -> "0x55a15883e750" 
+	"0x55a158838360" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838360" -> "0x55a158838300" 
+	"0x55a158838360" -> "0x55a1588384c0" 
+	"0x55a158838300" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
+	"0x55a1588384c0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a1588384c0" -> "0x55a158838420" 
+	"0x55a1588384c0" -> "0x55a158838620" 
+	"0x55a158838420" [shape = box, label = "^" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838420" -> "0x55a1588383c0" 
+	"0x55a158838420" -> "0x55a158838460" 
+	"0x55a1588383c0" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a158838460" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
+	"0x55a158838620" [shape = box, label = "*" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838620" -> "0x55a158838560" 
+	"0x55a158838620" -> "0x55a158838680" 
+	"0x55a158838560" [shape = box, label = "*" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838560" -> "0x55a158838500" 
+	"0x55a158838560" -> "0x55a1588385c0" 
+	"0x55a158838500" [shape = box, label = "4", style = filled, color = black, fillcolor = green]
+	"0x55a1588385c0" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
+	"0x55a158838680" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e750" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e750" -> "0x55a158838740" 
+	"0x55a15883e750" -> "0x55a15883e6f0" 
+	"0x55a158838740" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838740" -> "0x55a158838860" 
+	"0x55a158838740" -> "0x55a15883e4b0" 
+	"0x55a158838860" [shape = box, label = ">" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838860" -> "0x55a158838800" 
+	"0x55a158838860" -> "0x55a1588388a0" 
+	"0x55a158838800" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
+	"0x55a1588388a0" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883e4b0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e4b0" -> "0x55a158838a20" 
+	"0x55a15883e4b0" -> "0x55a15883e450" 
+	"0x55a158838a20" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838a20" -> "0x55a1588389c0" 
+	"0x55a158838a20" -> "0x55a158838e80" 
+	"0x55a1588389c0" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
+	"0x55a158838e80" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838e80" -> "0x55a158838de0" 
+	"0x55a158838e80" -> "0x55a158838ee0" 
+	"0x55a158838de0" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838de0" -> "0x55a158838ba0" 
+	"0x55a158838de0" -> "0x55a158838e20" 
+	"0x55a158838ba0" [shape = box, label = "+" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838ba0" -> "0x55a158838ae0" 
+	"0x55a158838ba0" -> "0x55a158838c00" 
+	"0x55a158838ae0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158838ae0" -> "0x55a158838b40" 
+	"0x55a158838b40" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a158838c00" [shape = box, label = "sqrt"style = filled, color = black, fillcolor = crimson]
+	"0x55a158838c00" -> "0x55a158838cc0" 
+	"0x55a158838cc0" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
+	"0x55a158838e20" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
+	"0x55a158838ee0" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e450" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e450" -> "0x55a158839000" 
+	"0x55a15883e450" -> "0x55a15883e3f0" 
+	"0x55a158839000" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158839000" -> "0x55a158838fa0" 
+	"0x55a158839000" -> "0x55a158837200" 
+	"0x55a158838fa0" [shape = box, label = "Diavolo"style = filled, color = black, fillcolor = orange]
+	"0x55a158837200" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158837200" -> "0x55a158837160" 
+	"0x55a158837200" -> "0x55a158837260" 
+	"0x55a158837160" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158837160" -> "0x55a158839180" 
+	"0x55a158837160" -> "0x55a1588371a0" 
+	"0x55a158839180" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158839180" -> "0x55a1588390c0" 
+	"0x55a158839180" -> "0x55a1588391e0" 
+	"0x55a1588390c0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a1588390c0" -> "0x55a158839120" 
+	"0x55a158839120" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a1588391e0" [shape = box, label = "sqrt"style = filled, color = black, fillcolor = crimson]
+	"0x55a1588391e0" -> "0x55a1588392a0" 
+	"0x55a1588392a0" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
+	"0x55a1588371a0" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
+	"0x55a158837260" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e3f0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e3f0" -> "0x55a158837360" 
+	"0x55a158837360" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158837360" -> "0x55a158837300" 
+	"0x55a158837300" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
+	"0x55a15883e6f0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e6f0" -> "0x55a158837480" 
+	"0x55a15883e6f0" -> "0x55a15883e690" 
+	"0x55a158837480" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158837480" -> "0x55a158839ec0" 
+	"0x55a158837480" -> "0x55a15883e5d0" 
+	"0x55a158839ec0" [shape = box, label = "==" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a158839ec0" -> "0x55a158837540" 
+	"0x55a158839ec0" -> "0x55a158839f00" 
+	"0x55a158837540" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
+	"0x55a158837540" -> "0x55a15883e510" 
+	"0x55a15883e510" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e510" -> "0x55a158839e00" 
+	"0x55a15883e510" -> "0x55a158839d60" 
+	"0x55a158839e00" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a158839d60" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
+	"0x55a158839f00" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
+	"0x55a15883e5d0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e5d0" -> "0x55a15883a080" 
+	"0x55a15883e5d0" -> "0x55a15883e570" 
+	"0x55a15883a080" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883a080" -> "0x55a15883a020" 
+	"0x55a15883a080" -> "0x55a15883a0e0" 
+	"0x55a15883a020" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
+	"0x55a15883a0e0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883a0e0" -> "0x55a15883a240" 
+	"0x55a15883a240" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883a240" -> "0x55a15883a1a0" 
+	"0x55a15883a240" -> "0x55a15883a2a0" 
+	"0x55a15883a1a0" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883a1a0" -> "0x55a15883a140" 
+	"0x55a15883a1a0" -> "0x55a15883a1e0" 
+	"0x55a15883a140" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a15883a1e0" [shape = box, label = "2", style = filled, color = black, fillcolor = green]
+	"0x55a15883a2a0" [shape = box, label = "Johnatan"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e570" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e570" -> "0x55a15883a3a0" 
+	"0x55a15883a3a0" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883a3a0" -> "0x55a15883a340" 
+	"0x55a15883a340" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
+	"0x55a15883e690" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e690" -> "0x55a15883a4c0" 
+	"0x55a15883a4c0" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883a4c0" -> "0x55a15883a5e0" 
+	"0x55a15883a4c0" -> "0x55a15883e630" 
+	"0x55a15883a5e0" [shape = box, label = "<" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883a5e0" -> "0x55a15883a580" 
+	"0x55a15883a5e0" -> "0x55a15883a620" 
+	"0x55a15883a580" [shape = box, label = "Discr"style = filled, color = black, fillcolor = orange]
+	"0x55a15883a620" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883e630" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e630" -> "0x55a15883a780" 
+	"0x55a15883a780" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883a780" -> "0x55a15883a720" 
+	"0x55a15883a720" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883eed0" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
+	"0x55a15883eed0" -> "0x55a15883a900" 
+	"0x55a15883eed0" -> "0x55a15883ee70" 
+	"0x55a15883a900" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
+	"0x55a15883a900" -> "0x55a15883a9c0" 
+	"0x55a15883a900" -> "0x55a15883e990" 
+	"0x55a15883a9c0" [shape = box, label = "Number"style = filled, color = black, fillcolor = orange]
+	"0x55a15883a9c0" -> "0x55a15883aa80" 
+	"0x55a15883aa80" [shape = box, label = "Value"style = filled, color = black, fillcolor = orange]
+	"0x55a15883e990" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e990" -> "0x55a15883aba0" 
+	"0x55a15883e990" -> "0x55a15883e930" 
+	"0x55a15883aba0" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883aba0" -> "0x55a15883ad80" 
+	"0x55a15883aba0" -> "0x55a15883e8d0" 
+	"0x55a15883ad80" [shape = box, label = "<" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883ad80" -> "0x55a15883acc0" 
+	"0x55a15883ad80" -> "0x55a15883adc0" 
+	"0x55a15883acc0" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883acc0" -> "0x55a15883ac60" 
+	"0x55a15883acc0" -> "0x55a15883ad20" 
+	"0x55a15883ac60" [shape = box, label = "Number"style = filled, color = black, fillcolor = orange]
+	"0x55a15883ad20" [shape = box, label = "Value"style = filled, color = black, fillcolor = orange]
+	"0x55a15883adc0" [shape = box, label = "1e-06", style = filled, color = black, fillcolor = green]
+	"0x55a15883e8d0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e8d0" -> "0x55a15883aee0" 
+	"0x55a15883aee0" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883aee0" -> "0x55a15883b0c0" 
+	"0x55a15883aee0" -> "0x55a15883e870" 
+	"0x55a15883b0c0" [shape = box, label = ">" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883b0c0" -> "0x55a15883b000" 
+	"0x55a15883b0c0" -> "0x55a15883b100" 
+	"0x55a15883b000" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883b000" -> "0x55a15883afa0" 
+	"0x55a15883b000" -> "0x55a15883b060" 
+	"0x55a15883afa0" [shape = box, label = "Number"style = filled, color = black, fillcolor = orange]
+	"0x55a15883b060" [shape = box, label = "Value"style = filled, color = black, fillcolor = orange]
+	"0x55a15883b100" [shape = box, label = "-1e-06", style = filled, color = black, fillcolor = green]
+	"0x55a15883e870" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e870" -> "0x55a15883b260" 
+	"0x55a15883b260" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883b260" -> "0x55a15883b200" 
+	"0x55a15883b200" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
+	"0x55a15883e930" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e930" -> "0x55a15883b420" 
+	"0x55a15883b420" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883b420" -> "0x55a15883b3c0" 
+	"0x55a15883b3c0" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883ee70" [shape = box, label = "DEC"style = filled, color = black, fillcolor = purple1]
+	"0x55a15883ee70" -> "0x55a15883b540" 
+	"0x55a15883b540" [shape = box, label = "Line"style = filled, color = black, fillcolor = crimson]
+	"0x55a15883b540" -> "0x55a15883b600" 
+	"0x55a15883b540" -> "0x55a15883ee10" 
+	"0x55a15883b600" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a15883b600" -> "0x55a15883b6c0" 
+	"0x55a15883b6c0" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
+	"0x55a15883ee10" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883ee10" -> "0x55a15883b7e0" 
+	"0x55a15883ee10" -> "0x55a15883edb0" 
+	"0x55a15883b7e0" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883b7e0" -> "0x55a15883b8a0" 
+	"0x55a15883b7e0" -> "0x55a15883eb70" 
+	"0x55a15883b8a0" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
+	"0x55a15883b8a0" -> "0x55a15883e9f0" 
+	"0x55a15883e9f0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883e9f0" -> "0x55a15883ba00" 
+	"0x55a15883e9f0" -> "0x55a15883b960" 
+	"0x55a15883ba00" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883b960" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a15883eb70" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883eb70" -> "0x55a15883bb80" 
+	"0x55a15883eb70" -> "0x55a15883eb10" 
+	"0x55a15883bb80" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883bb80" -> "0x55a15883bc40" 
+	"0x55a15883bb80" -> "0x55a15883eab0" 
+	"0x55a15883bc40" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
+	"0x55a15883bc40" -> "0x55a15883ea50" 
+	"0x55a15883ea50" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883ea50" -> "0x55a15883bda0" 
+	"0x55a15883ea50" -> "0x55a15883bd00" 
+	"0x55a15883bda0" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883bd00" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
+	"0x55a15883eab0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883eab0" -> "0x55a15883bf60" 
+	"0x55a15883bf60" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883bf60" -> "0x55a15883bf00" 
+	"0x55a15883bf00" [shape = box, label = "-1", style = filled, color = black, fillcolor = green]
+	"0x55a15883eb10" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883eb10" -> "0x55a15883c0c0" 
+	"0x55a15883c0c0" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883c0c0" -> "0x55a15883c060" 
+	"0x55a15883c060" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883edb0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883edb0" -> "0x55a15883c1e0" 
+	"0x55a15883edb0" -> "0x55a15883ed50" 
+	"0x55a15883c1e0" [shape = box, label = "if" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883c1e0" -> "0x55a15883c2a0" 
+	"0x55a15883c1e0" -> "0x55a15883ec90" 
+	"0x55a15883c2a0" [shape = box, label = "Is_equal"style = filled, color = black, fillcolor = crimson]
+	"0x55a15883c2a0" -> "0x55a15883ebd0" 
+	"0x55a15883ebd0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883ebd0" -> "0x55a15883c400" 
+	"0x55a15883ebd0" -> "0x55a15883c360" 
+	"0x55a15883c400" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883c360" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
+	"0x55a15883ec90" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883ec90" -> "0x55a15883c5e0" 
+	"0x55a15883ec90" -> "0x55a15883ec30" 
+	"0x55a15883c5e0" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883c5e0" -> "0x55a15883c580" 
+	"0x55a15883c5e0" -> "0x55a15883c640" 
+	"0x55a15883c580" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
+	"0x55a15883c640" [shape = box, label = "-" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883c640" -> "0x55a15883c700" 
+	"0x55a15883c700" [shape = box, label = "/" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883c700" -> "0x55a15883c6a0" 
+	"0x55a15883c700" -> "0x55a15883c760" 
+	"0x55a15883c6a0" [shape = box, label = "Jotaro"style = filled, color = black, fillcolor = orange]
+	"0x55a15883c760" [shape = box, label = "Joseph"style = filled, color = black, fillcolor = orange]
+	"0x55a15883ec30" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883ec30" -> "0x55a15883c860" 
+	"0x55a15883c860" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883c860" -> "0x55a15883c800" 
+	"0x55a15883c800" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
+	"0x55a15883ed50" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883ed50" -> "0x55a15883c9e0" 
+	"0x55a15883ed50" -> "0x55a15883ecf0" 
+	"0x55a15883c9e0" [shape = box, label = "=" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883c9e0" -> "0x55a15883c980" 
+	"0x55a15883c9e0" -> "0x55a15883ca20" 
+	"0x55a15883c980" [shape = box, label = "Dopio"style = filled, color = black, fillcolor = orange]
+	"0x55a15883ca20" [shape = box, label = "0", style = filled, color = black, fillcolor = green]
+	"0x55a15883ecf0" [shape = box, label = "LR"style = filled, color = black, fillcolor = azure3]
+	"0x55a15883ecf0" -> "0x55a15883cb20" 
+	"0x55a15883cb20" [shape = box, label = "return" style = filled, color = black, fillcolor = lightskyblue]
+	"0x55a15883cb20" -> "0x55a15883cac0" 
+	"0x55a15883cac0" [shape = box, label = "1", style = filled, color = black, fillcolor = green]
 	labelloc="t";
 	label="Equation: Quadratic ";
 }

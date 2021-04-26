@@ -39,7 +39,7 @@ Za Warudo! Toki wo Tomare!
 
     Mousukoshite ora ora desuka (Is_equal(Johnatan, 0) NIIIIICE 1)
     Za Warudo! Toki wo Tomare!
-        (Line(Joseph, Jotaro)) Kira Kuin baitsa dasuto Yare Yare Daze
+        Line(Joseph, Jotaro) Kira Kuin baitsa dasuto Yare Yare Daze
     ROAD ROLLER DA!
 
     Discr Awaken Joseph DORARARARARA 2 ARIARIARIARI 4 MUDAMUDAMUDA Johnatan MUDAMUDAMUDA Jotaro Yare Yare Daze
@@ -67,9 +67,9 @@ ROAD ROLLER DA!
 Is_equal(Number, Value)
 Za Warudo! Toki wo Tomare!
 
-    Mousukoshite ora ora desuka (Number ARIARIARIARI URYAAAAA 0.000001)
+    Mousukoshite ora ora desuka (Number ARIARIARIARI Value URYAAAAA 0.000001)
     Za Warudo! Toki wo Tomare!
-        Mousukoshite ora ora desuka (Number ARIARIARIARI USHYAAAA -0.000001)
+        Mousukoshite ora ora desuka (Number ARIARIARIARI Value USHYAAAA -0.000001)
         Za Warudo! Toki wo Tomare!
             1 Kira Kuin baitsa dasuto Yare Yare Daze
         ROAD ROLLER DA!

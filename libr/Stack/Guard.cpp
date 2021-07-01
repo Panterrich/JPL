@@ -117,7 +117,7 @@ int Stack_ERROR(struct Stack* stk)
             }
         }
 
-        return 0;
+    return 0;
     }
 }
 
@@ -341,6 +341,7 @@ unsigned int Stack_HASHFAQ6(struct Stack* stk)
         hash ^= (hash >> 6);
     }
 
+    return 0;
 
     size_t limit = 2 * sizeof(size_t) + sizeof(int) + sizeof(element_t*) + sizeof(canary_t) + sizeof(char*);
     

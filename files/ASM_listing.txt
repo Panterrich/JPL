@@ -1,0 +1,221 @@
+Assembler version: 3
+Assembler signature: DA
+
+
+  Adress   Number     Code     Text
+       0        1  20 2  0     PUSH 0
+     0xa        2  21 6  0      POP 0
+    0x14        3  20 2  0     PUSH 0
+    0x1e        4  21 6  1      POP 1
+    0x28        5  20 2  2     PUSH 2
+    0x32        6  21 1 102      POP RFX
+    0x35        7  37 10 64   CALL :MAIN 
+    0x3f        8        0      HLT
+    0x40        9  20 2  2     PUSH 2
+    0x4a       10 21 7  0 102      POP   0 RFX 
+    0x55       11  20 2  5     PUSH 5
+    0x5f       12 21 7  1 102      POP   1 RFX 
+    0x6a       13  20 2  1     PUSH 1
+    0x74       14 21 7  2 102      POP   2 RFX 
+    0x7f       15  20 2 1e+07     PUSH 1e+07
+    0x89       16 21 7  3 102      POP   3 RFX 
+    0x94       17 20 7  3 102     PUSH   3 RFX 
+    0x9f       18  20 2  0     PUSH 0
+    0xa9       19  34 10 310    JBE :WHILE_END0 
+    0xb3       20 20 7  2 102     PUSH   2 RFX 
+    0xbe       21 20 7  1 102     PUSH   1 RFX 
+    0xc9       22 20 7  0 102     PUSH   0 RFX 
+    0xd4       23  20 2  5     PUSH 5
+    0xde       24  20 1 102     PUSH RFX
+    0xe1       25       41      ADD
+    0xe2       26  21 1 102      POP RFX
+    0xe5       27  37 10 523   CALL :QUADRATIC 
+    0xef       28  20 1 102     PUSH RFX
+    0xf2       29  20 2  5     PUSH 5
+    0xfc       30       42      SUB
+    0xfd       31  21 1 102      POP RFX
+   0x100       32 21 7  4 102      POP   4 RFX 
+   0x10b       33 20 7  3 102     PUSH   3 RFX 
+   0x116       34  20 2  1     PUSH 1
+   0x120       35       42      SUB
+   0x121       36 21 7  3 102      POP   3 RFX 
+   0x12c       37  30 10 148    JMP :WHILE_BEGIN0 
+   0x136       38 20 7  4 102     PUSH   4 RFX 
+   0x141       39  20 2  2     PUSH 2
+   0x14b       40  36 10 378    JNE :IF_END1 
+   0x155       41 20 7  4 102     PUSH   4 RFX 
+   0x160       42    11  0      OUT
+   0x162       43  20 6  0     PUSH 0
+   0x16c       44    11  0      OUT
+   0x16e       45  20 6  1     PUSH 1
+   0x178       46    11  0      OUT
+   0x17a       47 20 7  4 102     PUSH   4 RFX 
+   0x185       48  20 2  1     PUSH 1
+   0x18f       49  36 10 434    JNE :IF_END2 
+   0x199       50 20 7  4 102     PUSH   4 RFX 
+   0x1a4       51    11  0      OUT
+   0x1a6       52  20 6  0     PUSH 0
+   0x1b0       53    11  0      OUT
+   0x1b2       54 20 7  4 102     PUSH   4 RFX 
+   0x1bd       55  20 2  0     PUSH 0
+   0x1c7       56  36 10 478    JNE :IF_END3 
+   0x1d1       57 20 7  4 102     PUSH   4 RFX 
+   0x1dc       58    11  0      OUT
+   0x1de       59 20 7  4 102     PUSH   4 RFX 
+   0x1e9       60  20 2 -1     PUSH -1
+   0x1f3       61  36 10 522    JNE :IF_END4 
+   0x1fd       62 20 7  4 102     PUSH   4 RFX 
+   0x208       63    11  0      OUT
+   0x20a       64       38      RET
+   0x20b       65 21 7  0 102      POP   0 RFX 
+   0x216       66 21 7  1 102      POP   1 RFX 
+   0x221       67 21 7  2 102      POP   2 RFX 
+   0x22c       68  20 2  0     PUSH 0
+   0x236       69 20 7  0 102     PUSH   0 RFX 
+   0x241       70  20 2  4     PUSH 4
+   0x24b       71  20 1 102     PUSH RFX
+   0x24e       72       41      ADD
+   0x24f       73  21 1 102      POP RFX
+   0x252       74  37 10 1149   CALL :IS_EQUAL 
+   0x25c       75  20 1 102     PUSH RFX
+   0x25f       76  20 2  4     PUSH 4
+   0x269       77       42      SUB
+   0x26a       78  21 1 102      POP RFX
+   0x26d       79  20 2  1     PUSH 1
+   0x277       80  36 10 708    JNE :IF_END5 
+   0x281       81 20 7  2 102     PUSH   2 RFX 
+   0x28c       82 20 7  1 102     PUSH   1 RFX 
+   0x297       83  20 2  4     PUSH 4
+   0x2a1       84  20 1 102     PUSH RFX
+   0x2a4       85       41      ADD
+   0x2a5       86  21 1 102      POP RFX
+   0x2a8       87  37 10 1280   CALL :LINE 
+   0x2b2       88  20 1 102     PUSH RFX
+   0x2b5       89  20 2  4     PUSH 4
+   0x2bf       90       42      SUB
+   0x2c0       91  21 1 102      POP RFX
+   0x2c3       92       38      RET
+   0x2c4       93 20 7  1 102     PUSH   1 RFX 
+   0x2cf       94 20 7  1 102     PUSH   1 RFX 
+   0x2da       95       43      MUL
+   0x2db       96  20 2  4     PUSH 4
+   0x2e5       97 20 7  0 102     PUSH   0 RFX 
+   0x2f0       98       43      MUL
+   0x2f1       99 20 7  2 102     PUSH   2 RFX 
+   0x2fc      100       43      MUL
+   0x2fd      101       42      SUB
+   0x2fe      102 21 7  3 102      POP   3 RFX 
+   0x309      103  20 2  0     PUSH 0
+   0x313      104 20 7  3 102     PUSH   3 RFX 
+   0x31e      105  20 2  4     PUSH 4
+   0x328      106  20 1 102     PUSH RFX
+   0x32b      107       41      ADD
+   0x32c      108  21 1 102      POP RFX
+   0x32f      109  37 10 1149   CALL :IS_EQUAL 
+   0x339      110  20 1 102     PUSH RFX
+   0x33c      111  20 2  4     PUSH 4
+   0x346      112       42      SUB
+   0x347      113  21 1 102      POP RFX
+   0x34a      114  20 2  1     PUSH 1
+   0x354      115  36 10 928    JNE :IF_END6 
+   0x35e      116  20 2  0     PUSH 0
+   0x368      117 20 7  1 102     PUSH   1 RFX 
+   0x373      118  20 2  2     PUSH 2
+   0x37d      119       44      DIV
+   0x37e      120 20 7  0 102     PUSH   0 RFX 
+   0x389      121       44      DIV
+   0x38a      122       42      SUB
+   0x38b      123  21 6  0      POP 0
+   0x395      124  20 2  1     PUSH 1
+   0x39f      125       38      RET
+   0x3a0      126 20 7  3 102     PUSH   3 RFX 
+   0x3ab      127  20 2  0     PUSH 0
+   0x3b5      128  34 10 1106    JBE :IF_END7 
+   0x3bf      129  20 2  0     PUSH 0
+   0x3c9      130 20 7  1 102     PUSH   1 RFX 
+   0x3d4      131       42      SUB
+   0x3d5      132 20 7  3 102     PUSH   3 RFX 
+   0x3e0      133       78     SQRT
+   0x3e1      134       41      ADD
+   0x3e2      135  20 2  2     PUSH 2
+   0x3ec      136       44      DIV
+   0x3ed      137 20 7  0 102     PUSH   0 RFX 
+   0x3f8      138       44      DIV
+   0x3f9      139  21 6  0      POP 0
+   0x403      140  20 2  0     PUSH 0
+   0x40d      141 20 7  1 102     PUSH   1 RFX 
+   0x418      142       42      SUB
+   0x419      143 20 7  3 102     PUSH   3 RFX 
+   0x424      144       78     SQRT
+   0x425      145       42      SUB
+   0x426      146  20 2  2     PUSH 2
+   0x430      147       44      DIV
+   0x431      148 20 7  0 102     PUSH   0 RFX 
+   0x43c      149       44      DIV
+   0x43d      150  21 6  1      POP 1
+   0x447      151  20 2  2     PUSH 2
+   0x451      152       38      RET
+   0x452      153 20 7  3 102     PUSH   3 RFX 
+   0x45d      154  20 2  0     PUSH 0
+   0x467      155  32 10 1148    JAE :IF_END8 
+   0x471      156  20 2  0     PUSH 0
+   0x47b      157       38      RET
+   0x47c      158       38      RET
+   0x47d      159 21 7  0 102      POP   0 RFX 
+   0x488      160 21 7  1 102      POP   1 RFX 
+   0x493      161 20 7  0 102     PUSH   0 RFX 
+   0x49e      162 20 7  1 102     PUSH   1 RFX 
+   0x4a9      163       42      SUB
+   0x4aa      164  20 2 1e-05     PUSH 1e-05
+   0x4b4      165  32 10 1268    JAE :IF_END9 
+   0x4be      166 20 7  0 102     PUSH   0 RFX 
+   0x4c9      167 20 7  1 102     PUSH   1 RFX 
+   0x4d4      168       42      SUB
+   0x4d5      169  20 2 -1e-05     PUSH -1e-05
+   0x4df      170  34 10 1268    JBE :IF_END10 
+   0x4e9      171  20 2  1     PUSH 1
+   0x4f3      172       38      RET
+   0x4f4      173  20 2  0     PUSH 0
+   0x4fe      174       38      RET
+   0x4ff      175       38      RET
+   0x500      176 21 7  0 102      POP   0 RFX 
+   0x50b      177 21 7  1 102      POP   1 RFX 
+   0x516      178  20 2  0     PUSH 0
+   0x520      179 20 7  0 102     PUSH   0 RFX 
+   0x52b      180  20 2  2     PUSH 2
+   0x535      181  20 1 102     PUSH RFX
+   0x538      182       41      ADD
+   0x539      183  21 1 102      POP RFX
+   0x53c      184  37 10 1149   CALL :IS_EQUAL 
+   0x546      185  20 1 102     PUSH RFX
+   0x549      186  20 2  2     PUSH 2
+   0x553      187       42      SUB
+   0x554      188  21 1 102      POP RFX
+   0x557      189  20 2  1     PUSH 1
+   0x561      190  36 10 1494    JNE :IF_END11 
+   0x56b      191  20 2  0     PUSH 0
+   0x575      192 20 7  1 102     PUSH   1 RFX 
+   0x580      193  20 2  2     PUSH 2
+   0x58a      194  20 1 102     PUSH RFX
+   0x58d      195       41      ADD
+   0x58e      196  21 1 102      POP RFX
+   0x591      197  37 10 1149   CALL :IS_EQUAL 
+   0x59b      198  20 1 102     PUSH RFX
+   0x59e      199  20 2  2     PUSH 2
+   0x5a8      200       42      SUB
+   0x5a9      201  21 1 102      POP RFX
+   0x5ac      202  20 2  1     PUSH 1
+   0x5b6      203  36 10 1483    JNE :IF_END12 
+   0x5c0      204  20 2 -1     PUSH -1
+   0x5ca      205       38      RET
+   0x5cb      206  20 2  0     PUSH 0
+   0x5d5      207       38      RET
+   0x5d6      208  20 2  0     PUSH 0
+   0x5e0      209 20 7  1 102     PUSH   1 RFX 
+   0x5eb      210 20 7  0 102     PUSH   0 RFX 
+   0x5f6      211       44      DIV
+   0x5f7      212       42      SUB
+   0x5f8      213  21 6  0      POP 0
+   0x602      214  20 2  1     PUSH 1
+   0x60c      215       38      RET
+   0x60d      216       38      RET

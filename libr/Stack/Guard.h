@@ -39,6 +39,7 @@
                                Stack_dump(log, a);                                                                     \
                                abort();                                                                                \
                            }
+
 //===================================================
 
 #define case_of_switch(enum_const) case enum_const: return #enum_const;

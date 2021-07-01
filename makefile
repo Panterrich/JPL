@@ -9,9 +9,14 @@ all: libr/Stack/Stack.cpp libr/Stack/Guard.cpp libr/Tree/Tree.cpp libr/Onegin/St
 	g++ libr/Stack/Stack.cpp libr/Stack/Guard.cpp libr/Tree/Tree.cpp libr/Onegin/Str_lib.cpp RFront-end/RFrontend.cpp RFront-end/main.cpp -o rfe-rm
 	g++ libr/Stack/Stack.cpp libr/Stack/Guard.cpp libr/Tree/Tree.cpp libr/Onegin/Str_lib.cpp libr/Differentiator/Differentiator.cpp Middle-end/Middleend.cpp Middle-end/main.cpp -o me
 	g++ libr/Stack/Stack.cpp libr/Stack/Guard.cpp libr/Tree/Tree.cpp libr/Onegin/Str_lib.cpp Back-end/Backend.cpp Back-end/main.cpp -o be
-	g++ CPU/CPU/CPU.cpp CPU/CPU/CPU_main.cpp CPU/libr/Stack.cpp CPU/libr/Guard.cpp -o cpu
+	g++ CPU/CPU/CPU.cpp CPU/CPU/CPU_main.cpp CPU/libr/Stack.cpp CPU/libr/Guard.cpp -O3 -o cpu
 	g++ CPU/Assembler/Assembler.cpp CPU/Assembler/Assembler_main.cpp CPU/libr/Str_lib.cpp -o asm
 	g++ CPU/Disassembler/Disassembler.cpp CPU/Disassembler/Disassembler_main.cpp CPU/libr/Str_lib.cpp -o dis
+
+run: 
+	./fe-rm files/Quadratic.txt 
+	./be files/Quadratic.me
+	./asm files/Quadratic.asm
 
 clean_all: 
 	rm -f "images/equation.aux"
@@ -76,7 +81,7 @@ CPUall: CPU/CPU/CPU.cpp CPU/CPU/CPU_main.cpp CPU/libr/Stack.cpp CPU/libr/Guard.c
 	g++ CPU/Disassembler/Disassembler.cpp CPU/Disassembler/Disassembler_main.cpp CPU/libr/Str_lib.cpp -o dis
 
 CPU: CPU/CPU/CPU.cpp CPU/CPU/CPU_main.cpp CPU/libr/Stack.cpp CPU/libr/Guard.cpp
-	g++ CPU/CPU/CPU.cpp CPU/CPU/CPU_main.cpp CPU/libr/Stack.cpp CPU/libr/Guard.cpp -o cpu
+	g++ CPU/CPU/CPU.cpp CPU/CPU/CPU_main.cpp CPU/libr/Stack.cpp CPU/libr/Guard.cpp -O3 -o cpu
 
 Assembler: CPU/Assembler/Assembler.cpp CPU/Assembler/Assembler_main.cpp CPU/libr/Str_lib.cpp
 	g++ CPU/Assembler/Assembler.cpp CPU/Assembler/Assembler_main.cpp CPU/libr/Str_lib.cpp -o asm

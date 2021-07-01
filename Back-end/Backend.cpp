@@ -478,8 +478,10 @@ void Print_if(struct Tree* tree, struct Node* current_node, struct RAM* ram, siz
     assert(ram  != nullptr);
     assert(code != nullptr);
 
+    size_t locale = ram->count_ifjmp++;
+
     fprintf(code, "\n"
-                  "If_begin%lu:\n", ram->count_ifjmp);
+                  "If_begin%lu:\n", locale);
     Print_equation(tree, current_node->left->left, ram, count_var, code);
     Print_equation(tree, current_node->left->right, ram, count_var, code);
 
@@ -487,12 +489,12 @@ void Print_if(struct Tree* tree, struct Node* current_node, struct RAM* ram, siz
     {
         switch ((int)current_node->left->value)
         {
-            case 46/* >  */: fprintf(code, "jbe :If_end%lu\n\n",  ram->count_ifjmp); break;
-            case 47/* <  */: fprintf(code, "jae :If_end%lu\n\n",  ram->count_ifjmp); break;
-            case 48/* == */: fprintf(code, "jne :If_end%lu\n\n",  ram->count_ifjmp); break;
-            case 49/* >= */: fprintf(code, "jb :If_end%lu\n\n", ram->count_ifjmp); break;
-            case 50/* <= */: fprintf(code, "ja :If_end%lu\n\n", ram->count_ifjmp); break;
-            case 51/* != */: fprintf(code, "je :If_end%lu\n\n", ram->count_ifjmp); break;
+            case 46/* >  */: fprintf(code, "jbe :If_end%lu\n\n", locale); break;
+            case 47/* <  */: fprintf(code, "jae :If_end%lu\n\n", locale); break;
+            case 48/* == */: fprintf(code, "jne :If_end%lu\n\n", locale); break;
+            case 49/* >= */: fprintf(code, "jb :If_end%lu\n\n",  locale); break;
+            case 50/* <= */: fprintf(code, "ja :If_end%lu\n\n",  locale); break;
+            case 51/* != */: fprintf(code, "je :If_end%lu\n\n",  locale); break;
             
             default: break;
         }
@@ -509,8 +511,7 @@ void Print_if(struct Tree* tree, struct Node* current_node, struct RAM* ram, siz
     
     fprintf(code, "\n"
                   "If_end%lu:"
-                  "\n\n", ram->count_ifjmp);
-    ++(ram->count_ifjmp);
+                  "\n\n", locale);
 }
 
 void Print_while(struct Tree* tree, struct Node* current_node, struct RAM* ram, size_t count_var, FILE* code)
@@ -519,8 +520,10 @@ void Print_while(struct Tree* tree, struct Node* current_node, struct RAM* ram, 
     assert(ram  != nullptr);
     assert(code != nullptr);
 
+    size_t locale = ram->count_ifjmp++;
+
     fprintf(code, "\n"
-                  "While_begin%lu:\n", ram->count_ifjmp);
+                  "While_begin%lu:\n", locale);
     Print_equation(tree, current_node->left->left,  ram, count_var, code);
     Print_equation(tree, current_node->left->right, ram, count_var, code);
 
@@ -528,12 +531,12 @@ void Print_while(struct Tree* tree, struct Node* current_node, struct RAM* ram, 
     {
         switch ((int)current_node->left->value)
         {
-            case 46/* >  */: fprintf(code, "jbe :While_end%lu\n\n",  ram->count_ifjmp); break;
-            case 47/* <  */: fprintf(code, "jae :While_end%lu\n\n",  ram->count_ifjmp); break;
-            case 48/* == */: fprintf(code, "jne :While_end%lu\n\n",  ram->count_ifjmp); break;
-            case 49/* >= */: fprintf(code, "jb :While_end%lu\n\n", ram->count_ifjmp); break;
-            case 50/* <= */: fprintf(code, "ja :While_end%lu\n\n", ram->count_ifjmp); break;
-            case 51/* != */: fprintf(code, "je :While_end%lu\n\n", ram->count_ifjmp); break;
+            case 46/* >  */: fprintf(code, "jbe :While_end%lu\n\n", locale); break;
+            case 47/* <  */: fprintf(code, "jae :While_end%lu\n\n", locale); break;
+            case 48/* == */: fprintf(code, "jne :While_end%lu\n\n", locale); break;
+            case 49/* >= */: fprintf(code, "jb :While_end%lu\n\n",  locale); break;
+            case 50/* <= */: fprintf(code, "ja :While_end%lu\n\n",  locale); break;
+            case 51/* != */: fprintf(code, "je :While_end%lu\n\n",  locale); break;
             
             default: break;
         }
@@ -550,8 +553,7 @@ void Print_while(struct Tree* tree, struct Node* current_node, struct RAM* ram, 
     
     fprintf(code, "\n"
                   "jmp :While_begin%lu\n" 
-                  "While_end%lu:\n\n", ram->count_ifjmp, ram->count_ifjmp);
-    ++(ram->count_ifjmp);
+                  "While_end%lu:\n\n", locale, locale);
 }
 
 void Print_assign(struct Tree* tree, struct Node* current_node, struct RAM* ram, size_t count_var, FILE* code)

@@ -39,7 +39,7 @@ There is a special middle-end mode in which each expression will be differentiat
 
 ## Example of a program.
 
-This is a factorial calculation program. The syntax is ***С-like***, so to understand the program, it is enough to open the file ["libr/key_words_rm.h"](libr/key_words_rm.h). 
+This is a factorial calculation program in romaji. The syntax is ***С-like***, so to understand the program, it is enough to open the file ["libr/key_words_rm.h"](libr/key_words_rm.h). 
 
 ```
 Kono, Giorno Giovanna, niwa yume ga aru ()

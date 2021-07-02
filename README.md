@@ -37,7 +37,7 @@ There is a special middle-end mode in which each expression will be differentiat
 [![Watch the video](images/mq2.jpg)](https://www.youtube.com/watch?v=3fvgipe_swY)
 
 
-## Example of a program in romaji
+## Example of a program.
 
 This is a factorial calculation program. The syntax is ***С-like***, so to understand the program, it is enough to open the file ["libr/key_words_rm.h"](libr/key_words_rm.h). 
 
